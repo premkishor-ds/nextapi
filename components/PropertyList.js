@@ -10,9 +10,9 @@ const PropertyList = ({ properties }) => {
       <ul>
         {properties.products.map((property) => (
           <li key={property.id}>{property.title}
-            {/* <Link href={`/properties/${property.id}`}>
-              <a>{property.title}</a>
-            </Link> */}
+            <Link href={`/properties/${property.id}`}>
+              {property.title}
+            </Link>
           </li>
         ))}
       </ul>

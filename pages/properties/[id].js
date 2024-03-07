@@ -1,7 +1,7 @@
 // pages/properties/[id].js
 import React from 'react';
 import { useRouter } from 'next/router';
-import PropertyDetail from '../../components/PropertyDetail';
+import PropertyDetail from '../../components/PropertyDetail.js';
 import { getPropertyById } from '../../utils/api';
 
 const PropertyDetailPage = ({ property }) => {
